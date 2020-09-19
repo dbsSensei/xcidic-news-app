@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Expo Firebase Starter",
+    "name": "Xcidic News App",
     "slug": "expo-firebase",
     "privacy": "public",
     "platforms": ["ios", "android"],
