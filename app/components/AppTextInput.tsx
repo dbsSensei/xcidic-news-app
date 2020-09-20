@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet, TextInput, TouchableOpacity } from 'react-native';
 import { MaterialCommunityIcons } from '@expo/vector-icons';
 
-import {Colors} from '../utils/colors';
+import Colors from '../utils/colors';
 
 export default function AppTextInput({
   leftIcon,

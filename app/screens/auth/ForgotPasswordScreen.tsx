@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import * as Yup from 'yup';
 
-import {Colors} from '../../utils/colors';
+import Colors from '../../utils/colors';
 import SafeView from '../../components/SafeView';
 import Form from '../../components/Forms/Form';
 import FormField from '../../components/Forms/FormField';

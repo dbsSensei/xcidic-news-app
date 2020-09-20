@@ -22,8 +22,13 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.xcidic.newsapp",
+      "buildNumber": "1.0.0"
     },
+    "android": {
+      "package": "com.xcidic.newsapp",
+      "versionCode": 1},
     "description": "",
     "githubUrl": "https://github.com/dbsSensei/xcidic-news-app"
   }
