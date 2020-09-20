@@ -2,7 +2,7 @@ import React from 'react';
 import { View, StyleSheet, Text, Image } from 'react-native';
 
 import AppButton from '../components/AppButton';
-import Colors from '../utils/colors';
+import {Colors} from '../utils/colors';
 import useStatusBar from '../hooks/useStatusBar';
 
 export default function WelcomeScreen({ navigation }:any) {
@@ -11,7 +11,7 @@ export default function WelcomeScreen({ navigation }:any) {
   return (
     <View style={styles.container}>
       <View style={styles.logoContainer}>
-        <Image source={require('../../assets/flame.png')} style={styles.logo} />
+        <Image source={require('../../assets/xcidic.png')} style={styles.logo} />
         <Text style={styles.subtitle}>Xcidic News App</Text>
       </View>
       <View style={styles.buttonContainer}>
@@ -29,18 +29,18 @@ export default function WelcomeScreen({ navigation }:any) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    justifyContent: 'flex-end',
+    justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: Colors.mediumGrey
+    backgroundColor: Colors.white
   },
   logoContainer: {
     position: 'absolute',
-    top: 60,
+    top: '30%',
     alignItems: 'center'
   },
   logo: {
     width: 125,
-    height: 125
+    height: 125,
   },
   subtitle: {
     fontSize: 24,
@@ -51,6 +51,7 @@ const styles = StyleSheet.create({
   buttonContainer: {
     padding: 20,
     paddingBottom: 60,
-    width: '100%'
+    width: '100%',
+    top: '20%'
   }
 });

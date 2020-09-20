@@ -7,6 +7,7 @@ import {
   Button,
 } from "react-native";
 import { useDispatch, useSelector } from "react-redux";
+import {StyleSheet} from 'react-native'
 
 import handleSignOut from "../auth/LogoutScreen";
 
@@ -173,13 +174,23 @@ export default function DashBoard(props: { navigation: { navigate: any } }) {
           onCTAPress={() => onCTAPress("Technology")}
         />
       </ScrollView>
-      <View>
-        <Button title="Sign Out" onPress={handleSignOut} />
-      </View>
+      {/* <View style={styles.button}> */}
+        <Button color='#E67E22' title="Sign Out" onPress={handleSignOut} />
+      {/* </View> */}
     </>
   );
 }
 
+
+
+const styles = StyleSheet.create({
+    button: {
+        backgroundColor: 'white',
+        color: 'red'
+    }
+  });
+
 DashBoard.navigationOptions = ({}) => {
   return { title: `XcidicNews` };
 };
+

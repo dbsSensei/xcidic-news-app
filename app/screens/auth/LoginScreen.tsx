@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, TouchableOpacity, Text, View } from 'react-native';
 import * as Yup from 'yup';
 
-import Colors from '../../utils/colors';
+import {Colors} from '../../utils/colors';
 import SafeView from '../../components/SafeView';
 import Form from '../../components/Forms/Form';
 import FormField from '../../components/Forms/FormField';
@@ -88,7 +88,7 @@ export default function LoginScreen({ navigation }:any) {
       <IconButton
         style={styles.backButton}
         iconName="keyboard-backspace"
-        color="#fff"
+        color="grey"
         size={30}
         onPress={() => navigation.goBack()}
       />
@@ -99,20 +99,21 @@ export default function LoginScreen({ navigation }:any) {
 const styles = StyleSheet.create({
   container: {
     padding: 15,
-    backgroundColor: Colors.mediumGrey
+    justifyContent: "center" ,
+    backgroundColor: Colors.white,
   },
   footerButtonContainer: {
     marginVertical: 15,
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   },
   forgotPasswordButtonText: {
-    color: Colors.white,
+    color: Colors.mediumGrey,
     fontSize: 18,
-    fontWeight: '600'
+    fontWeight: '600',
   },
   backButton: {
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
   }
 });

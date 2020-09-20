@@ -1,4 +1,4 @@
-export default {
+export const Colors:any = {
   primary: '#f57c00',
   secondary: '#039be5',
   black: '#222222',

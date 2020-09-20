@@ -124,7 +124,7 @@ const styles = StyleSheet.create({
   },
 
   sectionHeaderText: {
-    color: "#363434",
+    color: "#D68910",
     fontSize: 19,
     fontWeight: "bold",
     fontFamily: font,

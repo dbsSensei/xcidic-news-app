@@ -24,9 +24,9 @@ let iconColor = "#808689";
 let headerStyle = { backgroundColor: "#fff" };
 let headerTitleStyle = {
   fontWeight: "bold",
-  fontSize: 17,
-  fontFamily: font,
-  color: titleColor,
+  fontSize: 25,
+  fontFamily: 'sans-serif',
+  color: '#E67E22',
 };
 
 //Nav Buttons

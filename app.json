@@ -1,12 +1,15 @@
 {
   "expo": {
     "name": "Xcidic News App",
-    "slug": "expo-firebase",
+    "slug": "xcidic-news-app",
     "privacy": "public",
-    "platforms": ["ios", "android"],
+    "platforms": [
+      "ios",
+      "android"
+    ],
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/flame.png",
+    "icon": "./assets/xcidic.png",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "cover",
@@ -15,9 +18,13 @@
     "updates": {
       "fallbackToCacheTimeout": 0
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "supportsTablet": true
-    }
+    },
+    "description": "",
+    "githubUrl": "https://github.com/dbsSensei/xcidic-news-app"
   }
 }
